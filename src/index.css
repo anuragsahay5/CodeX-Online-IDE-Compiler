@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  resize: none;
+  border: none;
+  outline: none;
+}
+a {
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #2f2f2f;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.codeditor {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-dark * {
+  color: black;
+  font-family: monospace;
+}
+.ant-light * {
+  color: ghostwhite;
+  font-family: monospace;
+}
+
+.code-panel {
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  display: flex;
+}
+
+.code-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 3px;
+  padding-inline: 10px;
+}
+
+.run-btn {
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  background-color: #238636;
+  /* background-color: #FA7328; */
+}
+.run-btn span {
+  color: white;
+  font-weight: bold;
+}
+
+.theme-run {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.editor {
+  height: 100%;
+}
+.inp-oup {
+  width: 500px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: monospace;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+.inp-oup *::-webkit-scrollbar-thumb {
+  background-color: #8d8d8d;
+  border-radius: 100vh;
+}
+
+.input-panel,
+.output-panel {
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 12px 10px 0px 10px;
+}
+.inp,
+.oup {
+  height: 100%;
+  margin-inline: 5px;
+  padding: 10px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.txt-lbl {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-main {
+  border-top: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  margin: auto;
+  font-weight: bold;
+  background-color: black;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.footer-txt {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.75rem;
+  gap: 5px;
+}
