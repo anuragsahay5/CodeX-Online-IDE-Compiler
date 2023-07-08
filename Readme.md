@@ -39,3 +39,14 @@ Start the client
 - ``` Vite ``` : Used Vite as the build tool. Much faster and developer friendly.
 
 - ``` antd ``` : Designed the pages using antd which provides a set of high-quality React components.
+
+## Screenshots
+
+### Execute code
+![Execute code](https://i.ibb.co/ccp27Nf/Recorded-Video.gif)
+
+### Default language Templates
+![Default language Templates](https://i.ibb.co/pfJSFDC/Recorded-Video-1-1.gif)
+
+### Switch Themes
+![Switch Themes](https://i.ibb.co/nRvNnZT/Recorded-Video-1.gif)
