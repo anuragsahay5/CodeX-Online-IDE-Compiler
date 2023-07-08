@@ -6,7 +6,7 @@ The user friendly online ide with compiler that allows you to Write code and run
 
  - A Beautiful Code Editor with Syntax Highlighting and Text Wrapping.
  - Supports major languages with pre-built Templates.
- - Supports saving of last edited code and retrival.
+ - Automatically saves the last edited code and supports retrival of saved codes for each language.
  - Fast Execution of code with error handling.
  - Easy Input & Output.
 
