@@ -5,7 +5,7 @@ The user friendly online ide with compiler that allows you to Write code and run
 ## Features
 
  - A Beautiful Code Editor with Syntax Highlighting and Text Wrapping.
- - Supports major languages with prebuilt templates.
+ - Supports major languages with pre-built Templates.
  - Supports saving of last edited code and retrival.
  - Fast Execution of code with error handling.
  - Easy Input & Output.
