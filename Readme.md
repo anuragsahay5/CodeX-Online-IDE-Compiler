@@ -1,6 +1,6 @@
 # CodeX 
 
-A user friendly online ide with compiler that allows you to Write code and run it online. It also supports taking input from the user and standard libraries.
+An user friendly online ide with compiler that allows you to Write code and run it online. It also supports taking input from the user and standard libraries.
 
 ## Features
 
