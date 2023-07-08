@@ -1,4 +1,4 @@
-# CodeX 
+# CodeX-Online-IDE-Compiler
 
 The user friendly online ide with compiler that allows you to Write code and run it online. It also supports taking input from the user and standard libraries.
 
